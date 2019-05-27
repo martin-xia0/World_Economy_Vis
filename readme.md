@@ -96,7 +96,7 @@
 
 ##### 页面显示
 
-![1556364968355](C:\Users\marti\AppData\Roaming\Typora\typora-user-images\1556364968355.png)
+<img src="view.png">
 
 ### 六、分析方法
 
