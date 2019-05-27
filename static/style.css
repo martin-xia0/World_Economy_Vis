@@ -1,0 +1,50 @@
+body{
+    background-color: #B0E0E6;
+}
+#console{
+    position: absolute;
+    left: 1100px;
+    top: 0px;
+}
+
+#world_map{
+    position: absolute;
+    top: 0;
+}
+
+
+#rich_poor{
+    text-align: center;
+    position: absolute;
+    top: 410px;
+    left: 220px;
+}
+
+#pie_map{
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+#big_small{
+    text-align: center;
+    position: absolute;
+    top: 410px;
+    left: 730px;
+}
+#pie_map2{
+    position: absolute;
+    top: 450px;
+    left: 700px;
+}
+
+#country_info{
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+}
+
+#bar_map{
+    position: absolute;
+    left: 1050px;
+    top: 400px;
+}

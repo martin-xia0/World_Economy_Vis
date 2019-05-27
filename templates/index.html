@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask&Ajax</title>
+    <script src="http://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="../static/jquery.js"></script>
+    <script src="../static/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/style.css">
+
+    <script src="../static/index.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+
+</head>
+<body>
+
+    <svg id="world_map" width="1200" height="500"></svg>
+
+    <div id="rich_poor">
+        <h4> 富裕与贫穷 </h4>
+        <h5> 有多少人住在富裕国家？ </h5>
+    </div>
+    <div id="big_small">
+        <h4> 大国与小国 </h4>
+        <h5> 有多少人住在人口1亿以上的大国？ </h5>
+    </div>
+    <div id="country_info"></div>
+    <svg id="pie_map"></svg>
+    <svg id="pie_map2"></svg>
+    <svg id="bar_map"></svg>
+    <div id="console">
+        <span><h3>世界经济概览 </h3><h6>数据源自世界银行</h6></span>
+        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span id="year">2013</span>年<span class="caret"></span></button>
+        <ul class="dropdown-menu" id="sel_year">
+            <li><a>2010</a></li>
+            <li><a>2011</a></li>
+            <li><a>2012</a></li>
+            <li><a>2013</a></li>
+            <li><a>2014</a></li>
+        </ul>
+    </div>
+</body>
+</html>
